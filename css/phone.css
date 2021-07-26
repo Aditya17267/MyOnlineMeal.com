@@ -1,63 +1,79 @@
+/* Navigation */
+
 #navbar {
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-#navbar ul{
-    flex-direction: row; 
-    align-items: center;
-    justify-content: center;
-}
-#navbar ul li a{
+#navbar ul li a {
     font-size: 1rem;
     padding: 0px 7px;
-}
-#home{
-    height: 606px;
-}
-#home h1{
-    padding-top: 75px;
+    padding-bottom: 8px;
 }
 
-#home::before{
-    height: 480px;
+
+/* Home section */
+
+#home {
+    height: 370px;
+    padding: 3px 28px;
 }
 
-#home p{
-    font-size: 0.9rem;
-    /* padding: 5px 49px; */
+#home::before {
+    height: 525px;
 }
-.bttn{
-    margin: -5px 18px;
+
+#home p {
+    font-size: 13px;
 }
-#services{
+
+
+/* Services section  */
+
+#services {
     flex-direction: column;
-
 }
 
-#services .box{
+#services-container::before {
+    height: 277.8%;
 }
 
-
-#clients{
-    overflow: hidden;
-}
-
-
-
-#contact{
-    
+#services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
 }
 
 
-footer{
+/* Clients section */
 
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 66px;
+    padding: 6px;
+    height: auto;
 }
 
 
-.h-primary{
-    font-size: 1.9rem;
-    padding: 20px;
- bord
+/* Contact us section */
+
+#contact-box form {
+    width: 80%;
+}
+
+
+/* Footer */
+
+
+/* Utility classes */
+
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
 }
